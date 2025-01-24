@@ -34,11 +34,11 @@
 
 
 import sqlite3
-from config import DATABASE
+# from config import DATABASE
 import time
 from datetime import datetime, timedelta
 
-
+DATABASE = 'vending_machine.db'
 
 # Helper function to connect to SQLite DB
 def get_db_connection():
