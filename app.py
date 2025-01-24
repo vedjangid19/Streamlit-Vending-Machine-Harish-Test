@@ -63,7 +63,8 @@ def vending_form():
                         # Check if the entered OTP matches the generated OTP
                         if int(generated_otp) == int(otp_input):
                             # OTP verified successfully, generate unique code
-                            unique_code = generate_unique_code()
+                            # unique_code = generate_unique_code()
+                            unique_code = "BY1RKT"
     
                             # Update the database with the unique code
                             conn = get_db_connection()
