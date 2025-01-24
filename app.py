@@ -76,7 +76,7 @@ def vending_form():
                             conn.commit()
                             conn.close()
     
-                            machine_number = '+918882495811'
+                            machine_number = '+919769496162'
                             # Send the unique code via SMS
                             msg_body = f"OTP Verified. Here is your unique code for collection from machine {machine_id}: {unique_code}"
                             send_otp_sms(machine_number, msg_body)
